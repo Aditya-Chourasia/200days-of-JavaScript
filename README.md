@@ -114,3 +114,15 @@ see code file
 We can access the data inside arrays using indexes.
 
 Array indexes are written in the same bracket notation that strings use, except that instead of specifying a character, they are specifying an entry in the array. Like strings, arrays use zero-based indexing, so the first element in an array has an index of ```0```.
+
+# Modify Array Data With Indexes
+the entries of arrays are mutable and can be changed freely, even if the array was declared with ```const```.
+
+# Access Multi-Dimensional Arrays With Indexes
+see code and test the code to learn the concept
+
+# Manipulate Arrays With push()
+An easy way to append data to the end of an array is via the ```push()``` function.
+
+```.push()``` takes one or more parameters and "pushes" them onto the end of the array.
+

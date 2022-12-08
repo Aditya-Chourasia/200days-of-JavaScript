@@ -119,5 +119,28 @@ const myArray = ["Hello", 1, "India"];
 const teams = [["Bulls", 23], ["White Sox", 45]];
 
 // Access Array Data with Indexes
-// myArray variable here
+// myArray variable used here
 const data = myArray[1];
+
+// Modify Array Data With Indexes
+const ourArray = [50, 40, 30];
+ourArray[0] = 15;
+
+// Access Multi-Dimensional Arrays With Indexes
+const arr = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14]
+];
+
+const subarray = arr[3];
+const nestedSubarray = arr[3][0];
+const element = arr[3][0][1];
+
+// Manipulate Arrays With push()
+const arr1 = [1, 2, 3];
+arr1.push(4);
+
+const arr2 = ["Stimpson", "J", "cat"];
+arr2.push(["happy", "joy"]);
