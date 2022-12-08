@@ -99,3 +99,7 @@ var varLength = variable.length;
 // Use Bracket Notation to Find the First Character in a String
 const firstName = "Charles";
 const firstLetter = firstName[0];
+
+// Use Bracket Notation to Find the Nth Character in a String
+const firstName = "Ada";
+const secondLetterOfFirstName = firstName[1];

@@ -90,3 +90,8 @@ You can find the length of a String value by writing .length after the string va
 Bracket notation is a way to get a character at a specific index within a string.
 
 Most modern programming languages, like JavaScript, don't start counting at 1 like humans do. They start at 0. This is referred to as Zero-based indexing.
+
+# Use Bracket Notation to Find the Nth Character in a String
+You can also use bracket notation to get the character at other positions within a string.
+
+Remember that computers start counting at 0, so the first character is actually the zeroth character.
