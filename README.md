@@ -98,3 +98,8 @@ Remember that computers start counting at 0, so the first character is actually 
 
 # Use Bracket Notation to Find the Last Character in a String
 In order to get the last letter of a string, you can subtract one from the string's length.
+
+# Use Bracket Notation to Find the Nth-to-Last Character in a String
+You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
+
+For example, you can get the value of the third-to-last letter ```see code file```

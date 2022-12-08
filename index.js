@@ -107,3 +107,7 @@ const secondLetterOfFirstName = firstName[1];
 // Use Bracket Notation to Find the Last Character in a String
 const firstName = "Ada";
 const lastLetter = firstName[firstName.length - 1];
+
+// Use Bracket Notation to Find the Nth-to-Last Character in a String
+const firstName = "Augusta";
+const thirdToLastLetter = firstName[firstName.length - 3];

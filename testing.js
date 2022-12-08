@@ -1,5 +1,3 @@
 // for testing of codes
-
-var variable = "Aditya";
-var varLength = variable.length;
-console.log(varLength);
+const sentence = "It was really " + "hot" + ", and we " + "laughed" + " ourselves " + "silly" + ".";
+console.log(sentence)
