@@ -95,3 +95,6 @@ Most modern programming languages, like JavaScript, don't start counting at 1 li
 You can also use bracket notation to get the character at other positions within a string.
 
 Remember that computers start counting at 0, so the first character is actually the zeroth character.
+
+# Use Bracket Notation to Find the Last Character in a String
+In order to get the last letter of a string, you can subtract one from the string's length.
