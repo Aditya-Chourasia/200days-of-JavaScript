@@ -91,3 +91,11 @@ let myStr = "I am a \"double quoted\" string inside \"double quotes\".";
 // '\n' for newline
 // " \' " for single quote
 // ' \" ' for double quote
+
+// Find the Length of a String
+var variable = "Aditya";
+var varLength = variable.length;
+
+// Use Bracket Notation to Find the First Character in a String
+const firstName = "Charles";
+const firstLetter = firstName[0];

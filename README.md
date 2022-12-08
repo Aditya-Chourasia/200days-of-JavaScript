@@ -84,3 +84,9 @@ When you are defining a string you must start and end with a single or double qu
 In JavaScript, you can escape a quote from considering it as an end of string quote by placing a backslash (\) in front of the quote.
 
 # Find the Length of a String
+You can find the length of a String value by writing .length after the string variable or string literal.
+
+# Use Bracket Notation to Find the First Character in a String
+Bracket notation is a way to get a character at a specific index within a string.
+
+Most modern programming languages, like JavaScript, don't start counting at 1 like humans do. They start at 0. This is referred to as Zero-based indexing.
