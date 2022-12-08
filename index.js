@@ -111,3 +111,9 @@ const lastLetter = firstName[firstName.length - 1];
 // Use Bracket Notation to Find the Nth-to-Last Character in a String
 const firstName = "Augusta";
 const thirdToLastLetter = firstName[firstName.length - 3];
+
+// Store Multiple Values in one Variable using JavaScript Arrays
+const myArray = ["Hello", 1, "India"];
+
+// Nest one Array within Another Array
+const teams = [["Bulls", 23], ["White Sox", 45]];

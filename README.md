@@ -103,3 +103,11 @@ In order to get the last letter of a string, you can subtract one from the strin
 You can use the same principle we just used to retrieve the last character in a string to retrieve the Nth-to-last character.
 
 For example, you can get the value of the third-to-last letter ```see code file```
+
+# Store Multiple Values in one Variable using JavaScript Arrays
+With JavaScript array variables, we can store several pieces of data in one place.
+
+# Nest one Array within Another Array
+see code file
+
+- JS DSA DAY - 1 Completed
