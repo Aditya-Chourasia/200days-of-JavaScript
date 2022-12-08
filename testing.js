@@ -1,3 +1,4 @@
 // for testing of codes
-const sentence = "It was really " + "hot" + ", and we " + "laughed" + " ourselves " + "silly" + ".";
-console.log(sentence)
+const myArray = ["Hello", 1, "India"];
+const data = myArray[1];
+console.log(data)

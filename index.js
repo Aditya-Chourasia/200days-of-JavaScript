@@ -101,19 +101,23 @@ const firstName = "Charles";
 const firstLetter = firstName[0];
 
 // Use Bracket Notation to Find the Nth Character in a String
-const firstName = "Ada";
-const secondLetterOfFirstName = firstName[1];
+const firstName_one = "Ada";
+const secondLetterOfFirstName = firstName_one[1];
 
 // Use Bracket Notation to Find the Last Character in a String
-const firstName = "Ada";
-const lastLetter = firstName[firstName.length - 1];
+const firstName_two = "Ada";
+const lastLetter = firstName_two[firstName_two.length - 1];
 
 // Use Bracket Notation to Find the Nth-to-Last Character in a String
-const firstName = "Augusta";
-const thirdToLastLetter = firstName[firstName.length - 3];
+const firstName_three = "Augusta";
+const thirdToLastLetter = firstName_three[firstName_three.length - 3];
 
 // Store Multiple Values in one Variable using JavaScript Arrays
 const myArray = ["Hello", 1, "India"];
 
 // Nest one Array within Another Array
 const teams = [["Bulls", 23], ["White Sox", 45]];
+
+// Access Array Data with Indexes
+// myArray variable here
+const data = myArray[1];
