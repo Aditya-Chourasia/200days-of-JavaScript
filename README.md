@@ -164,3 +164,4 @@ Variables which are declared within a function, as well as the function paramete
 It is possible to have both local and global variables with the same name. When you do this, the local variable takes precedence over the global variable.
 
 # Understanding Boolean Values
+Another data type is the Boolean. Booleans may only be one of two values: ```true``` or ```false```. They are basically little on-off switches, where ```true``` is on and ```false``` is off. These two states are mutually exclusive.
