@@ -151,3 +151,16 @@ Parameters are variables that act as placeholders for the values that are to be 
 
 # Return a Value from a Function with Return
 We can pass values into a function with arguments. You can use a return statement to send a value back out of a function.
+
+# Global Scope and Functions
+In JavaScript, scope refers to the visibility of variables. Variables which are defined outside of a function block have Global scope. This means, they can be seen everywhere in your JavaScript code.
+
+Variables which are declared without the ```let``` or ```const``` keywords are automatically created in the global scope. This can create unintended consequences elsewhere in your code or when running a function again. You should always declare your variables with ```let``` or ```const```.
+
+# Local Scope and Functions
+Variables which are declared within a function, as well as the function parameters, have local scope. That means they are only visible within that function.
+
+# Global vs. Local Scope in Functions
+It is possible to have both local and global variables with the same name. When you do this, the local variable takes precedence over the global variable.
+
+# Understanding Boolean Values

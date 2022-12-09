@@ -179,3 +179,13 @@ function plusThree(num) {
 }
 
 const answer = plusThree(5);
+
+// Global vs. Local Scope in Functions
+const someVar = "Hat"; // gloabal scope
+
+function myFun() {
+  const someVar = "Head"; // local scope
+  return someVar;
+}
+
+// Understanding Boolean Values
