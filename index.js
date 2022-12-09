@@ -152,3 +152,12 @@ console.log(oneDown);
 console.log(threeArr);
 
 // Manipulate Arrays With shift()
+const threeArr_one = [1, 4, 6];
+const oneDown_one = threeArr.shift();
+console.log(oneDown_one);
+console.log(threeArr_one);
+
+// Manipulate Arrays With unshift()
+const ourArrayi = ["Stimpson", "J", "cat"];
+ourArrayi.shift();
+ourArrayi.unshift("Happy");

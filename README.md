@@ -134,6 +134,11 @@ Another way to change the data in an array is with the ```.pop()``` function.
 Any type of entry can be popped off of an array - numbers, strings, even nested arrays.
 
 # Manipulate Arrays With shift()
-pop() always removes the last element of an array. What if you want to remove the first?
+```pop()``` always removes the last element of an array. What if you want to remove the first?
 
-That's where .shift() comes in. It works just like ```.pop()```, except it removes the first element instead of the last.
+That's where ```.shift()``` comes in. It works just like ```.pop()```, except it removes the first element instead of the last.
+
+# Manipulate Arrays With unshift()
+Not only can you ```shift``` elements off of the beginning of an array, you can also ```unshift``` elements to the beginning of an array i.e. add elements in front of the array.
+
+```.unshift()``` works exactly like ```.push()```, but instead of adding the element at the end of the array, ```unshift()``` adds the element at the beginning of the array.
