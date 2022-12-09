@@ -144,3 +144,11 @@ arr1.push(4);
 
 const arr2 = ["Stimpson", "J", "cat"];
 arr2.push(["happy", "joy"]);
+
+// Manipulate Arrays With pop()
+const threeArr = [1, 4, 6];
+const oneDown = threeArr.pop();
+console.log(oneDown);
+console.log(threeArr);
+
+// Manipulate Arrays With shift()
