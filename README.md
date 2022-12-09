@@ -142,3 +142,12 @@ That's where ```.shift()``` comes in. It works just like ```.pop()```, except it
 Not only can you ```shift``` elements off of the beginning of an array, you can also ```unshift``` elements to the beginning of an array i.e. add elements in front of the array.
 
 ```.unshift()``` works exactly like ```.push()```, but instead of adding the element at the end of the array, ```unshift()``` adds the element at the beginning of the array.
+
+# Write Reusable JavaScript with Functions
+In JavaScript, we can divide up our code into reusable parts called functions.
+
+# Passing Values to Functions with Arguments
+Parameters are variables that act as placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically defined along with one or more parameters. The actual values that are input (or "passed") into a function when it is called are known as arguments.
+
+# Return a Value from a Function with Return
+We can pass values into a function with arguments. You can use a return statement to send a value back out of a function.

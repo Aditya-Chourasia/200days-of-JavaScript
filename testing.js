@@ -1,4 +1,6 @@
 // for testing of codes
-const myArray = ["Hello", 1, "India"];
-const data = myArray[1];
-console.log(data)
+function plusThree(num) {
+  return num + 3;
+}
+
+const answer = plusThree(5);

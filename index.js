@@ -161,3 +161,21 @@ console.log(threeArr_one);
 const ourArrayi = ["Stimpson", "J", "cat"];
 ourArrayi.shift();
 ourArrayi.unshift("Happy");
+
+// Write Reusable JavaScript with Functions
+function functionName() {
+  console.log("Hello World");
+}
+functionName();
+
+// Passing Values to Functions with Arguments
+function testFun(param1, param2) {
+  console.log(param1, param2);
+}
+
+// Return a Value from a Function with Return
+function plusThree(num) {
+  return num + 3;
+}
+
+const answer = plusThree(5);
