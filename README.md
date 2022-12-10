@@ -165,3 +165,49 @@ It is possible to have both local and global variables with the same name. When 
 
 # Understanding Boolean Values
 Another data type is the Boolean. Booleans may only be one of two values: ```true``` or ```false```. They are basically little on-off switches, where ```true``` is on and ```false``` is off. These two states are mutually exclusive.
+
+# Use Conditional Logic with If Statements
+```if``` statements are used to make decisions in code. The keyword ```if``` tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as ```Boolean``` conditions and they may only be ```true``` or ```false```.
+
+When the condition evaluates to ```true```, the program executes the statement inside the curly braces. When the Boolean condition evaluates to ```false```, the statement inside the curly braces will not execute.
+
+# Comparison with the Equality Operator
+There are many comparison operators in JavaScript. All of these operators return a boolean ```true``` or ```false``` value.
+
+The most basic operator is the equality operator ```==```. The equality operator compares two values and returns ```true``` if they're equivalent or ```false``` if they are not. Note that equality is different from assignment (=), which assigns the value on the right of the operator to a variable on the left.
+
+# Comparison with the Strict Equality Operator
+Strict equality (```===```) is the counterpart to the equality operator (```==```). However, unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.
+
+If the values being compared have different types, they are considered unequal, and the strict equality operator will return false.
+
+# Comparison with the Inequality Operator
+The inequality operator (```!=```) is the opposite of the equality operator. It means not equal and returns ```false``` where equality would return ```true``` and vice versa. Like the equality operator, the inequality operator will convert data types of values while comparing.
+
+# Comparison with the Strict Inequality Operator
+The strict inequality operator (!==) is the logical opposite of the strict equality operator. It means "Strictly Not Equal" and returns false where strict equality would return true and vice versa. The strict inequality operator will not convert data types.
+
+# Comparison with the Greater Than Operator
+The greater than operator (>) compares the values of two numbers. If the number to the left is greater than the number to the right, it returns true. Otherwise, it returns false.
+
+Like the equality operator, the greater than operator will convert data types of values while comparing.
+
+# Comparison with the Greater Than Or Equal To Operator
+The greater than or equal to operator (```>=```) compares the values of two numbers. If the number to the left is greater than or equal to the number to the right, it returns ```true```. Otherwise, it returns ```false```.
+
+Like the equality operator, the greater than or equal to operator will convert data types while comparing.
+
+# Comparison with the Less Than Operator
+The less than operator (```<```) compares the values of two numbers. If the number to the left is less than the number to the right, it returns ```true```. Otherwise, it returns ```false```. Like the equality operator, the less than operator converts data types while comparing.
+
+# Comparison with the Less Than Or Equal To Operator
+The less than or equal to operator (```<=```) compares the values of two numbers. If the number to the left is less than or equal to the number to the right, it returns ```true```. If the number on the left is greater than the number on the right, it returns ```false```. Like the equality operator, the less than or equal to operator converts data types.
+
+# Comparisons with the Logical And Operator
+Sometimes you will need to test more than one thing at a time. The logical and operator (```&&```) returns ```true``` if and only if the operands to the left and right of it are true.
+
+# Comparisons with the Logical Or Operator
+The logical or operator (||) returns true if either of the operands is true. Otherwise, it returns false.
+
+The logical or operator is composed of two pipe symbols: (||). This can typically be found between your Backspace and Enter keys.
+
