@@ -374,3 +374,25 @@ switch (val) {
   case 4:
     result = "4 alone";
 }
+
+// Build JavaScript Objects
+const cat = {
+  "Name" : "Barood",
+  "Legs" : 4,
+  "Tail" : 1,
+  "Enemies" : ["Dog", "Glass"]
+}
+
+// Accessing Object Properties with Dot Notation
+const prop1val = cat.name;
+
+// Accessing Object Properties with Bracket Notation
+const myObj = {
+  "Space Name": "Kirk",
+  "More Space": "Spock",
+  "NoSpace": "USS Enterprise"
+};
+
+myObj["Space Name"];
+myObj['More Space'];
+myObj["NoSpace"];
