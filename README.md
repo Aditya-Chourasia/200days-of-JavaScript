@@ -211,3 +211,9 @@ The logical or operator (```||```) returns true if either of the operands is ```
 
 The logical or operator is composed of two pipe symbols: (||). This can typically be found between your Backspace and Enter keys.
 
+# Introducing Else Statements
+When a condition for an ```if``` statement is true, the block of code following it is executed. What about when that condition is false? Normally nothing would happen. With an ```else``` statement, an alternate block of code can be executed.
+
+# Introducing Else If Statements
+If you have multiple conditions that need to be addressed, you can chain if statements together with else if statements.
+
