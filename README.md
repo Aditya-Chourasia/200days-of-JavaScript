@@ -278,3 +278,9 @@ see code file
 # ES6 starts here
 when using ```var``` then variable is declared globally.
 and, when using ```let``` then variable is declared that piece of block only
+and, ```const``` only prevents reassignment of the variable identifier. They are still mutatable in objects like arrays, functions
+
+# Prevent Object Mutation
+const declaration alone doesn't really protect your data from mutation. To ensure your data doesn't change, JavaScript provides a function Object.freeze to prevent data mutation.
+
+Any attempt at changing the object will be rejected, with an error thrown if the script is running in strict mode.
