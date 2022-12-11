@@ -240,3 +240,35 @@ Dot notation is what you use when you know the name of the property you're tryin
 The second way to access the properties of an object is bracket notation (```[]```). If the property of the object you are trying to access has a space in its name, you will need to use bracket notation.
 
 However, you can still use bracket notation on object properties without spaces.
+
+# Updating Object Properties
+After you've created a JavaScript object, you can update its properties at any time just like you would update any other variable. You can use either dot or bracket notation to update.
+
+# Add New Properties to a JavaScript Object
+You can add new properties to existing JavaScript objects the same way you would modify them.
+
+# Testing Objects for Properties
+Sometimes it is useful to check if the property of a given object exists or not. We can use the ```.hasOwnProperty(propname)``` method of objects to determine if that object has the given property name. ```.hasOwnProperty()``` returns ```true``` or ```false``` if the property is found or not.
+
+# Manipulating Complex Objects
+Sometimes you may want to store data in a flexible Data Structure. A JavaScript object is one way to handle flexible data. They allow for arbitrary combinations of strings, numbers, booleans, arrays, functions, and objects.
+
+# Accessing Nested Arrays
+As we have seen in earlier examples, objects can contain both nested objects and nested arrays. Similar to accessing nested objects, array bracket notation can be chained to access nested arrays.
+
+# Iterate with JavaScript While Loops
+see code file for whole loops topic
+
+# Use the parseInt Function
+The parseInt() function parses a string and returns an integer
+
+# Use the parseInt Function with a Radix
+it converts a binary number to an integer and returns it.
+
+# Use the Conditional (Ternary) Operator
+The conditional operator, also called the ternary operator, can be used as a one line if-else expression.
+
+The syntax is ```a ? b : c```, where ```a``` is the condition, ```b``` is the code to run when the condition returns ```true```, and ```c``` is the code to run when the condition returns ```false```.
+
+# Use Multiple Conditional (Ternary) Operators
+see code file

@@ -396,3 +396,117 @@ const myObj = {
 myObj["Space Name"];
 myObj['More Space'];
 myObj["NoSpace"];
+
+// Updating Object Properties
+const ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+
+ourDog.name = "Happy Camper";
+
+// Add New Properties to a JavaScript Object
+ourDog.bark = "bow-wow";
+// or
+ourDog["bark"] = "bow-wow";
+
+// Delete Properties from a JavaScript Object
+delete ourDog.bark;
+
+// Testing Objects for Properties
+const myObj = {
+  top: "hat",
+  bottom: "pants"
+};
+
+myObj.hasOwnProperty("top"); // output: true
+myObj.hasOwnProperty("middle"); // output: false
+
+// Manipulating Complex Objects
+const ourMusic = [
+  {
+    "artist": "Daft Punk",
+    "title": "Homework",
+    "release_year": 1997,
+    "formats": [ "CD", "Cassette", "LP" ],
+    "gold": true
+  }
+];
+
+// Accessing Nested Arrays
+const ourPets = [
+  {
+    animalType: "cat",
+    names: [
+      "Meowzer",
+      "Fluffy",
+      "Kit-Cat"
+    ]
+  },
+  {
+    animalType: "dog",
+    names: [
+      "Spot",
+      "Bowser",
+      "Frankie"
+    ]
+  }
+];
+
+ourPets[0].names[1];
+ourPets[1].names[0];
+
+// Iterate with JavaScript While Loops
+// while loop
+const ourArray = [];
+let i = 0;
+while (i < 5) {
+  ourArray.push(i);
+  i++;
+}
+
+// for loops
+const ourArray = [];
+
+for (let i = 0; i < 5; i++) {
+  ourArray.push(i);
+}
+
+// do while loop
+const ourArray = [];
+let i = 0;
+
+do {
+  ourArray.push(i);
+  i++;
+} while (i < 5);
+
+// related numbers
+var randomFloat = Math.random()
+var randomInt = Math.floor(Math.random())
+var randomrange = Math.floor(Math.random() * (max - min + 1)) + min
+
+// Use the parseInt Function
+const a = parseInt("007");
+
+// Use the parseInt Function with a Radix
+const a = parseInt("11", 2);
+
+// Use the Conditional (Ternary) Operator
+function findGreater(a, b) {
+  if(a > b) {
+    return "a is greater";
+  }
+  else {
+    return "b is greater or equal";
+  }
+}
+
+
+function findGreater(a, b) {
+  return a > b ? "a is greater" : "b is greater or equal";
+}
+
+// Use Multiple Conditional (Ternary) Operators

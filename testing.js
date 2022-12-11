@@ -1,14 +1,10 @@
 // for testing codes
-const myObj = {
-  "Space Name": "Kirk",
-  "More Space": "Spock",
-  "NoSpace": "USS Enterprise"
+const ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
 };
 
-let one = myObj["Space Name"];
-let two = myObj['More Space'];
-let three = myObj["NoSpace"];
-
-console.log(one)
-console.log(two)
-console.log(three)
+ourDog.name = "Happy Camper";
+console.log(ourDog["name"])
