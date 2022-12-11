@@ -272,3 +272,9 @@ The syntax is ```a ? b : c```, where ```a``` is the condition, ```b``` is the co
 
 # Use Multiple Conditional (Ternary) Operators
 see code file
+
+<hr>
+
+# ES6 starts here
+when using ```var``` then variable is declared globally.
+and, when using ```let``` then variable is declared that piece of block only

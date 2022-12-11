@@ -528,3 +528,5 @@ function findGreaterOrEqual(a, b) {
     : (a > b) ? "a is greater" 
     : "b is greater";
 }
+
+//  ES6
