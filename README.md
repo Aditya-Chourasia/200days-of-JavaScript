@@ -284,3 +284,19 @@ and, ```const``` only prevents reassignment of the variable identifier. They are
 const declaration alone doesn't really protect your data from mutation. To ensure your data doesn't change, JavaScript provides a function Object.freeze to prevent data mutation.
 
 Any attempt at changing the object will be rejected, with an error thrown if the script is running in strict mode.
+
+# Use Arrow Functions to Write Concise Anonymous Functions
+In JavaScript, we often don't need to name our functions, especially when passing a function as an argument to another function. Instead, we create inline functions. We don't need to name these functions because we do not reuse them anywhere else.
+
+# Write Arrow Functions with Parameters
+see code file
+
+# Set Default Parameters for Your Functions
+In order to help us create more flexible functions, ES6 introduces default parameters for functions.
+
+# Use the Rest Parameter with Function Parameters
+In order to help us create more flexible functions, ES6 introduces the rest parameter for function parameters. With the rest parameter, you can create functions that take a variable number of arguments. These arguments are stored in an array that can be accessed later from inside the function.
+
+# Use the Spread Operator to Evaluate Arrays In-Place
+ES6 introduces the spread operator, which allows us to expand arrays and other expressions in places where multiple parameters or elements are expected.
+

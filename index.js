@@ -538,3 +538,32 @@ Object.freeze(obj);
 obj.review = "bad";
 obj.newProp = "Test";
 console.log(obj); 
+
+// Use Arrow Functions to Write Concise Anonymous Functions
+const myFunc = function() {
+  const myVar = "value";
+  return myVar;
+}
+
+// Write Arrow Functions with Parameters
+const doubler = (item) => item * 2;
+doubler(4);
+
+// Set Default Parameters for Your Functions
+const greeting = (name = "Anonymous") => "Hello " + name;
+
+console.log(greeting("John"));
+console.log(greeting());
+// The console will display the strings "Hello John" and "Hello Anonymous".
+
+// Use the Rest Parameter with Function Parameters
+function howMany(...args) {
+  return "You have passed " + args.length + " arguments.";
+}
+console.log(howMany(0, 1, 2));
+console.log(howMany("string", null, [1, 2, 3], { }));
+// The console would display the strings "You have passed 3 arguments." and "You have passed 4 arguments"..
+
+// Use the Spread Operator to Evaluate Arrays In-Place
+const arr = [6, 89, 3, 45];
+const maximus = Math.max(...arr);
